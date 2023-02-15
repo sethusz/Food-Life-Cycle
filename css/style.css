@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Nosifer&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+
+}
+
+.none {
+  display: none !important;
+}
+
+.flc__img img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.flc__img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+  text-align: center;
+  font-size: 110%;
+}
+
+.hidden__word {
+  position: absolute;
+  top: 52%;
+  right: 16.5%;
+  text-decoration: none;
+  color: black;
+  font-family: "Nosifer", cursive;
+}
+
+.hidden__word:hover {
+  color: white;
+}
+
+a.button__link {
+  display: inline-block;
+  background: #2196f3;
+  color: #fff;
+  padding: 22px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.button__nft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ab2323; */
+  background-size: 20px 20px;
+  padding: 20px 45px 120px 40px;
+  height: 100px;
+}
+
+.button__link:hover {
+  background-color: #005b96;
+}
+
+.quote {
+  min-height: 483px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote__text {
+  max-width: 100%;
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-size: 48px;
+
+  line-height: 56px;
+  color: black;
+}
+.author_quote {
+  max-width: 45%;
+  /* font-family: "Ayrton pight", sans-serif; */
+  font-weight: 500;
+
+  font-size: 27px;
+  transform: translate(75%);
+  line-height: 40px;
+
+  color: black;
+}
+
+
+
+.idiology__title {
+  font-family: "Mate SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ab2323;
+
+  text-align: right;
+  margin: 5%;
+  padding-top: 2%;
+}
+.idiology__img {
+  float: left;
+  margin: 0 48px 35px 0;
+  width: 115px;
+  height: 115px;
+}
+.idiology__img img {
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+}
+
+
+.img__star--one img{
+  position: absolute;
+  margin-left: -40%;
+
+  transform: translateY(-53%);
+}
+
+.img__star img{
+  position: absolute;
+  margin-left: 50%;
+  transform: translateY(-30%);
+  /* max-width: 50%; */
+
+
+
+}
+
+
+.idiology__text p {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  margin-left: 5%;
+  padding: 0 0 40px 0;
+  max-width: 50%;
+}
+
+.idiology__text-two p {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  margin-top: 5%;
+  padding: 0 0 40px 0;
+  max-width: 50%;
+  margin-left: 40%;
+
+}
+
+.slider__title {
+  font-family: "Mate SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: rgb(70, 62, 62);
+  padding: 48px 100px 16px 150px;
+}
+
+.container__slider {
+  max-width: 85%;
+  margin: 100px auto;
+}
+
+.owl-carousel .item {
+  max-width: 450px;
+}
+
+.owl-item {
+  opacity: 0.6;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3 ease-in-out;
+  -moz-transition: 0.3 ease-in-out;
+  -ms-transition: 0.3 ease-in-out;
+  -o-transition: 0.3 ease-in-out;
+}
+
+.owl-item:hover {
+  opacity: 1;
+}
+
+.owl-item.center {
+  opacity: 1;
+}
+
+.owl-nav button img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background-color: #dedede8f;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3 ease-in-out;
+  -moz-transition: 0.3 ease-in-out;
+  -ms-transition: 0.3 ease-in-out;
+  -o-transition: 0.3 ease-in-out;
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -50px;
+}
+
+.owl-next {
+  right: -50px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+.owl-nav button img:hover {
+  background-color: #dedede;
+}
+
+.footer {
+  height: 176px;
+  background-color: #ab2323;
+  background-size: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  width: 440px;
+  padding: 48px 0 22px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container--idiology {
+
+}
+
+@media screen and (max-width: 1280px) {
+  .flc__img {
+    font-size: 100%;
+  }
+
+  .idiology__text p{
+    font-size: 30px;
+  }
+
+  .idiology__text-two p{
+    font-size: 30px;
+  }
+
+  .img__star {
+    margin-top: 2%;
+  }
+
+  .slider__title {
+    margin-top: 10%;
+  }
+}
+  @media screen and (max-width: 1024px) {
+    .flc__img {
+      font-size: 80%;
+    }
+
+    .hidden__word {
+      transform: translate(20%);
+    }
+
+    .idiology__text p{
+      font-size: 26px;
+    }
+  
+    .idiology__text-two p{
+      font-size: 26px;
+    }
+  
+    .img__star {
+      margin-top: 6%;
+    }
+}
+@media screen and (max-width: 767px) {
+  .hidden__word {
+    font-size: 50%;
+  }
+
+  .quote {
+    min-height: 400px;
+  }
+  .quote__text {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .author_quote {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .idiology__title {
+    font-size: 45px;
+    /* line-height: 43px; */
+    padding: 12px 0 12px 210px;
+  }
+  .slider__title {
+    font-size: 45px;
+    line-height: 53px;
+  }
+
+
+
+  .footer__text {
+    padding: 34px 10px 0 10px;
+  }
+
+  .idiology__text p,
+  .idiology__text-two p{
+    margin-right: 5%;
+    font-size: 25px;
+    max-width: 70%;
+  }
+
+  .img__star {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hidden__word {
+    font-size: 40%;
+  }
+
+  .quote {
+    min-height: 360px;
+  }
+  .quote__text {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .idiology__text p,
+  .idiology__text-two p{
+    margin-right: 5%;
+    font-size: 20px;
+    max-width: 70%;
+    line-height: 120%;
+  }
+
+  .img__star {
+    margin-top: 60%;
+  }
+
+  .idiology__title {
+    font-size: 35px;
+    line-height: 110%;
+    padding: 12px 0 12px 0;
+  }
+
+  .slider__title {
+    font-size: 45px;
+    line-height: 53px;
+    padding: 12px 0 12px 0;
+    margin-top: 25%;
+  }
+
+
+  .footer__text {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 28px 0 22px 0;
+  }
+}
