@@ -113,7 +113,9 @@ a.button__link {
   color: black;
 }
 
-
+.container--idiology {
+  max-width: 100%;
+}
 
 .idiology__title {
   font-family: "Mate SC";
@@ -143,15 +145,18 @@ a.button__link {
 .img__star--one img{
   position: absolute;
   margin-left: -40%;
-
+  
   transform: translateY(-53%);
+
+  float: left;
 }
 
 .img__star img{
   position: absolute;
   margin-left: 50%;
+  width:50%;
   transform: translateY(-30%);
-  /* max-width: 50%; */
+  height: 110%;
 
 
 
@@ -272,9 +277,7 @@ a.button__link {
   color: #ffffff;
 }
 
-.container--idiology {
 
-}
 
 @media screen and (max-width: 1280px) {
   .flc__img {
@@ -295,6 +298,20 @@ a.button__link {
 
   .slider__title {
     margin-top: 10%;
+  }
+
+  .img__star {
+    display: none;
+  }
+
+  .img__star--one {
+    display: none;
+  }
+
+  .container--idiology {
+    background-image: url('../img/Ellipse 153.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
   }
 }
   @media screen and (max-width: 1024px) {
