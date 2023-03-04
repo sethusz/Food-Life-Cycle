@@ -145,7 +145,6 @@ a.button__link {
 .img__star--one img{
   position: absolute;
   margin-left: -40%;
-  
   transform: translateY(-53%);
 
   float: left;
@@ -158,12 +157,12 @@ a.button__link {
   transform: translateY(-30%);
   height: 110%;
 
-
-
 }
 
 
-.idiology__text p {
+.idiology__text p,
+.idiology__text-two p {
+  position: relative;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
@@ -175,19 +174,11 @@ a.button__link {
 }
 
 .idiology__text-two p {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 45px;
-  margin-top: 5%;
-  padding: 0 0 40px 0;
-  max-width: 50%;
   margin-left: 40%;
-
 }
 
 .slider__title {
+  position: relative;
   font-family: "Mate SC";
   font-style: normal;
   font-weight: 400;
@@ -397,6 +388,7 @@ a.button__link {
   .idiology__text p,
   .idiology__text-two p{
     margin-right: 5%;
+
     font-size: 20px;
     max-width: 70%;
     line-height: 120%;
