@@ -73,7 +73,7 @@ function updateMarginRight() {
   const width = window.innerWidth;
 	if (width > 2000) {
   const diff = Math.floor((width - 2000) / 100); 
-  const newMarginRight = diff * 2.5 + 3; 
+  const newMarginRight = diff * 1.1; 
   hiddenWord.style.marginRight = `${newMarginRight}%`;
 	}
 }
