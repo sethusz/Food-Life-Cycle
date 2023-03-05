@@ -78,7 +78,6 @@ a.button__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #ab2323; */
   background-size: 20px 20px;
   padding: 20px 45px 120px 40px;
   height: 100px;
@@ -107,9 +106,7 @@ a.button__link {
 }
 .author_quote {
   max-width: 45%;
-  /* font-family: "Ayrton pight", sans-serif; */
   font-weight: 500;
-
   font-size: 27px;
   transform: translate(75%);
   line-height: 40px;
