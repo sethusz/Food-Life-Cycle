@@ -117,14 +117,19 @@ a.button__link {
   color: black;
 }
 
-.container--idiology {
+/* .container--idiology {
   background-image: url('../img/Ellipse\ 153.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
+} */
+
+.quote__idiology--slider {
+  background-image: url('../img/Ellipse\ 153.svg');
+  background-repeat: no-repeat;
+  background-position: 20% 100%;
   background-size: 70%;
 }
-
-
 
 .idiology__title {
   font-family: "Mate SC";
@@ -256,40 +261,22 @@ a.button__link {
   }
 }
 
-
 @media  (max-width: 1280px) {
   .flc__img {
     font-size: 100%;
   }
 
-  .idiology__text p{
-    font-size: 30px;
-  }
-
+  .idiology__text p,
   .idiology__text-two p{
     font-size: 30px;
-  }
-
-  .img__star {
-    margin-top: 2%;
   }
 
   .slider__title {
     margin-top: 10%;
   }
 
-  .img__star {
-    display: none;
-  }
-
-  .img__star--one {
-    display: none;
-  }
-
-  .container--idiology {
-    background-image: url('../img/Ellipse 153.svg');
-    background-repeat: no-repeat;
-    background-position: 50%;
+  .quote__idiology--slider {
+    background-position: 20% 50%;
   }
 }
   @media  (max-width: 1024px) {
@@ -302,19 +289,13 @@ a.button__link {
       transform: translate(20%);
     }
 
-    .idiology__text p{
-      font-size: 26px;
-    }
-  
+    .idiology__text p,
     .idiology__text-two p{
       font-size: 26px;
     }
-  
-    .img__star {
-      margin-top: 6%;
-    }
 }
 @media screen and (max-width: 767px) {
+
   .hidden__word {
     font-size: 50%;
   }
@@ -334,15 +315,12 @@ a.button__link {
 
   .idiology__title {
     font-size: 45px;
-    /* line-height: 43px; */
     padding: 12px 0 12px 210px;
   }
   .slider__title {
     font-size: 45px;
     line-height: 53px;
   }
-
-
 
   .footer__text {
     padding: 34px 10px 0 10px;
@@ -353,10 +331,6 @@ a.button__link {
     margin-right: 5%;
     font-size: 25px;
     max-width: 70%;
-  }
-
-  .img__star {
-    margin-top: 15%;
   }
 }
 
@@ -382,10 +356,6 @@ a.button__link {
     line-height: 120%;
   }
 
-  .img__star {
-    margin-top: 60%;
-  }
-
   .idiology__title {
     font-size: 35px;
     line-height: 110%;
@@ -398,7 +368,6 @@ a.button__link {
     padding: 12px 0 12px 0;
     margin-top: 25%;
   }
-
 
   .footer__text {
     font-size: 13px;
