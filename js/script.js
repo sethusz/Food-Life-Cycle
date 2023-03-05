@@ -67,4 +67,17 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
+const hiddenWord = document.querySelector('.hidden__word');
+
+function updateMarginRight() {
+  const width = window.innerWidth;
+	if (width > 2000) {
+  const diff = Math.floor((width - 2000) / 100); 
+  const newMarginRight = diff * 2.5 + 3; 
+  hiddenWord.style.marginRight = `${newMarginRight}%`;
+	}
+}
+
+window.addEventListener('load', updateMarginRight);
+window.addEventListener('resize', updateMarginRight);
 
