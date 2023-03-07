@@ -260,10 +260,6 @@ a.button__link {
 }
 
 @media  (max-width: 1280px) {
-  .flc__img {
-    font-size: 100%;
-  }
-
   .idiology__text p,
   .idiology__text-two p{
     font-size: 30px;
