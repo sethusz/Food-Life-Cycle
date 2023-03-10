@@ -115,12 +115,6 @@ a.button__link {
   color: black;
 }
 
-/* .container--idiology {
-  background-image: url('../img/Ellipse\ 153.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-} */
 
 .quote__idiology--slider {
   background-image: url('../img/Ellipse\ 153.svg');
@@ -233,7 +227,6 @@ a.button__link {
 }
 
 .footer {
-  height: 176px;
   background-color: #ab2323;
   background-size: 20px 20px;
   display: flex;
@@ -295,7 +288,7 @@ a.button__link {
   }
 
   .quote {
-    min-height: 400px;
+    margin-bottom: 15%;
   }
   .quote__text {
     font-size: 36px;
@@ -333,9 +326,6 @@ a.button__link {
     font-size: 6px;
   }
 
-  .quote {
-    min-height: 360px;
-  }
   .quote__text {
     font-size: 32px;
     line-height: 32px;
