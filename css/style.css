@@ -140,11 +140,9 @@ a.button__link {
 .idiology__text p,
 .idiology__text-two p {
   position: relative;
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 36px;
-  line-height: 45px;
+  line-height: 40px;
   margin-left: 5%;
   padding: 0 0 40px 0;
   max-width: 50%;
